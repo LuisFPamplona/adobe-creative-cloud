@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora_V2</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./script/script.js" defer></script>
+</head>
+<body>
+    <div id="input">
+        <div id="num">
+
+        </div>
+        <input type="button" value="Somar" class="btn" onclick="getNum_soma()">
+        <input type="button" value="Subtrair" class="btn" onclick="getNum_sub()">
+        <input type="button" value="Multiplicar" class="btn" onclick="getNum_mult()">
+        <input type="button" value="Dividir" class="btn" onclick="getNum_div()"><br>
+
+        <input type="button" value="1" class="btn_num" id="num1" onclick="addNum(1)">
+        <input type="button" value="2" class="btn_num" id="num2" onclick="addNum(2)">
+        <input type="button" value="3" class="btn_num" id="num2" onclick="addNum(3)"><br>
+        <input type="button" value="4" class="btn_num" id="num4" onclick="addNum(4)">
+        <input type="button" value="5" class="btn_num" id="num5" onclick="addNum(5)">
+        <input type="button" value="6" class="btn_num" id="num6" onclick="addNum(6)"><br>
+        <input type="button" value="7" class="btn_num" id="num7" onclick="addNum(7)">
+        <input type="button" value="8" class="btn_num" id="num8" onclick="addNum(8)">
+        <input type="button" value="9" class="btn_num" id="num9" onclick="addNum(9)"><br>
+        <input type="button" value="C" class="btn_num" id="clear_btn" onclick="limpar()">
+        <input type="button" value="0" class="btn_num" id="num0" onclick="addNum(0)">
+        <input type="button" value="=" class="btn_num" id="result_btn" onclick="resultado()">  
+    </div>
+    <div id="equacao">
+
+    </div>
+    <div id="res">
+
+    </div>
+</body>
+</html>
